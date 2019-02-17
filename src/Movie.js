@@ -28,6 +28,6 @@ export const Poster = styled.img`
   transition: all 0.3s ease;
   :hover {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
-    transform: scale(1.08);
+    transform: scale(1.04);
   }
 `;

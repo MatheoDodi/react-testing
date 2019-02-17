@@ -40,7 +40,7 @@ export default MoviesList;
 
 const MovieGrid = styled.div`
   display: grid;
-  padding: 1rem;
+  padding: 2rem 1rem 3.5rem 1rem;
   grid-template-columns: repeat(5, 1fr);
   grid-row-gap: 2.25rem;
 `;
