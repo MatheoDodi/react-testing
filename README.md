@@ -4,24 +4,18 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="Logo" width="100">
     <img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/940/landscape/jestlogo.png" alt="Logo" width="100">
   </a>
 
   <h3 align="center">React testing with Jest</h3>
-
-  <p align="center">
-    Testing react applications with Jest!
-    <br />
-    <a href="https://jestjs.io/docs/en/getting-started"><strong>Explore the docs »</strong></a>
-    <br />
-  </p>
 </p>
 
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
-- [About the Project](#about-the-project)
+- [About the Repo](#about-the-repo)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
