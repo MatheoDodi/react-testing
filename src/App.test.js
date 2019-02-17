@@ -1,3 +1,5 @@
-test('Fake Test', () => {
-  expect(true).toBeTruthy();
+import { add } from './App';
+
+test('Add', () => {
+  expect(add(1, 2)).toBe(3);
 });
