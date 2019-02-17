@@ -71,6 +71,7 @@ Contributions are what make the open source community such an amazing place to b
 ## What Did I Learn
 
 - Jest
+- Assertions
 
 <!-- CONTACT -->
 
