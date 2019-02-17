@@ -19,7 +19,6 @@
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [What Did I Learn](#what-did-i-learn)
 - [Contact](#contact)
@@ -70,8 +69,10 @@ Contributions are what make the open source community such an amazing place to b
 
 ## What Did I Learn
 
-- Jest
 - Assertions
+- Unit Testing
+- Intergration Testing
+- Spying functions
 
 <!-- CONTACT -->
 
