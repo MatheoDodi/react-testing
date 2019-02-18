@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter /> 1`] = `
+<div>
+  <button
+    data-testid="counter-button"
+  >
+    2
+  </button>
+</div>
+`;

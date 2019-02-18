@@ -72,7 +72,9 @@ Contributions are what make the open source community such an amazing place to b
 - Assertions
 - Unit Testing
 - Intergration Testing
-- Spying functions
+- Spies
+- react-testing-library
+- Snapshot Testing
 
 <!-- CONTACT -->
 

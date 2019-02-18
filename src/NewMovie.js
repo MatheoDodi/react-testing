@@ -5,7 +5,7 @@ class NewMovie extends Component {
   render() {
     return (
       <div>
-        <h1 data-testid="new-movie">New Movie</h1>
+        <h2 data-testid="new-movie">New Movie</h2>
         <MovieForm />
       </div>
     );

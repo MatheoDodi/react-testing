@@ -5,7 +5,7 @@ import Counter from './Counter';
 afterEach(cleanup);
 
 test('<Counter />', () => {
-  const { debug, getByTestId } = render(<Counter />);
+  const { debug, getByTestId, container } = render(<Counter />);
   debug(); // Outputs DOM as string
   const counterButton = getByTestId('counter-button');
 
@@ -21,4 +21,6 @@ test('<Counter />', () => {
 
   fireEvent.click(counterButton);
   expect(counterButton.textContent).toBe('2');
+
+  expect(container.firstChild).toMatchSnapshot();
 });
