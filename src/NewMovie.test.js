@@ -1,11 +1,13 @@
 import React from 'react';
-import { render, cleanup } from 'react-testing-library';
+import { render, cleanup, fireEvent } from 'react-testing-library';
 import NewMovie from './NewMovie';
 
 afterEach(cleanup);
 
 test('<NewMovie />', () => {
-  const { debug, getByTestId, queryByTestId, container } = render(<NewMovie />);
+  const { debug, getByTestId, queryByTestId, container, getByText } = render(
+    <NewMovie />
+  );
   const newMovie = getByTestId('new-movie');
 
   debug();
