@@ -17,7 +17,14 @@ class MovieForm extends Component {
         }
         data-testid="movie-form"
       >
-        <input type="text" />
+        <label htmlFor="text">
+          Text
+          <input
+            id="text"
+            type="text"
+            onChange={e => this.setState({ text: e.target.value })}
+          />
+        </label>
         <button>Submit</button>
       </form>
     );

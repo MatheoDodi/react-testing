@@ -10,8 +10,6 @@ test('<NewMovie />', () => {
   );
   const newMovie = getByTestId('new-movie');
 
-  debug();
-
   expect(newMovie.textContent).toBe('New Movie');
   expect(queryByTestId('movie-form')).toBeTruthy();
 
